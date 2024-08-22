@@ -1,0 +1,21 @@
+{
+  "name": "excel-batch-send-email",
+  "version": "1.0.0",
+  "description": "读取邮件批量发送到对应邮箱",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js ./test.xlsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "nodemailer",
+    "excel"
+  ],
+  "author": "zwp",
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^6.9.14",
+    "xlsx": "^0.18.5"
+  }
+}
