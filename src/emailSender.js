@@ -5,8 +5,8 @@
 const config = {
     service: 'gmail', // 那个邮箱服务器
     auth: {
-        user: 'wenping.zhao001@gmail.com', // 用户名
-        pass: '' //密码
+        user: 'xxx@gmail.com', // 用户名
+        pass: 'xxx' //密码
     }
 }
 
